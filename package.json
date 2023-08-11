@@ -1,0 +1,25 @@
+{
+  "name": "secrets-bot",
+  "version": "0.1.0",
+  "description": "Conveniently store secrets and environment variables in your Vell vault in Telegram!",
+  "main": "api/bot.js",
+  "type": "module",
+  "directories": {
+    "api": "api" 
+  },
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Zubin",
+    "email": "me@zubin.org.in",
+    "url": "https://zubin.org.in"
+  },
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "grammy": "^1.17.2",
+    "vellin": "^0.1.114"
+  }
+}
