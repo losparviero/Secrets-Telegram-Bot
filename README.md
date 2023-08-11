@@ -8,8 +8,9 @@ Conveniently store secrets and environment variables in your Vell vault in Teleg
 
 1. Clone repo.
 2. Run ```npm i``` in project folder.
-3. Rename .env.example to .env and provide bot token and DB_URL.
-4. Run ```npm start``` to start the bot.
+3. Rename .env.example to .env and provide bot token.
+4. Follow instructions to get DB_URL from [Vellin](https://npmjs.com/vellin)
+5. Run ```npm start``` to start the bot.
 
 #### It's advisable to run the bot using PM2 or any startup manager for persistent execution.
 
